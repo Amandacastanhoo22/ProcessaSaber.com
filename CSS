@@ -1,1 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Estilo para o cabeçalho */
+header {
+    background-color: #5b91e2;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Estilo para a seção de destaques */
+.destaques {
+    text-align: center;
+    padding: 20px;
+}
+
+.destaques h2 {
+    font-size: 24px;
+}
+
+.famosos {
+    margin: 20px;
+    text-align: center;
+}
+
+.famosos img {
+    max-width: 100%;
+}
+
+/* Estilo para a seção de notícias */
+.noticias {
+    text-align: center;
+    padding: 20px;
+}
+
+.noticias h2 {
+    font-size: 24px;
+}
+
+.noticia {
+    margin: 20px;
+    text-align: center;
+}
+
+.noticia img {
+    max-width: 100%;
+}
+
+/* Estilo para a seção de galeria */
+.galeria {
+    text-align: center;
+    padding: 10px;
+}
+
+.imagem {
+    display: inline-block;
+    margin: 10px;
+}
+
+.imagem img {
+    max-width: 100%;
+}
+
+/* Estilo para a seção de contato */
+.contato {
+    text-align: center;
+    padding: 20px;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #0293be;
+}
+
+.contato button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
